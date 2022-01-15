@@ -1,0 +1,38 @@
+@media(max-width:1200px){
+    .container{
+        width: 90%;
+    }
+
+    .s2-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width: 60%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width:935px){
+    .cards{
+        justify-content: space-around;
+    }
+}
+
+@media ( max-width:768px){
+    .nav > ul{
+        display: none;
+    }
+    
+    .burger-bars{
+        display: block;
+        cursor: pointer;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+}
